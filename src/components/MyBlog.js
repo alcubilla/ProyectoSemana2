@@ -1,20 +1,26 @@
 import React from "react";
 
 function MyBlog(props) {
+  const { categoria } = props;
+
   return (
-    <div>
-      <div class="card">
-        <img src={props.imgUrl} class="card-img-top" alt="No se encontro"></img>
-        <div class="card-body">
-          <h5 class="card-title">{props.titulo1}</h5>
-          <p class="card-text m-1">{props.extracto}</p>
-          <cite title="Source Title">Publicado por: {props.autor}</cite>
-          <p class="card-text m-0">
-            {props.fecha} -{props.categoria}
+    <div className="col-sm-4">
+      <div className="card-fluid">
+        <img
+          src={categoria.imgUrl}
+          className="card-img-top"
+          alt="No se encontro"
+        ></img>
+        <div className="card-body">
+          <h5 className="card-title"> {categoria.titulo1} </h5>
+          <p className="card-text m-1">{categoria.extracto}</p>
+          <cite title="Source Title">Publicado por: {categoria.autor}</cite>
+          <p className="card-text">
+            {categoria.fecha} - {categoria.categoria}
           </p>
-          <a href={undefined} class="btn btn-primary m-2">
-            Leer más
-          </a>
+          <button type="button" class="btn btn-outline-primary">
+            Ver mas
+          </button>
         </div>
       </div>
     </div>
