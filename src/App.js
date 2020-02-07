@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <MyNavbar />
-      <BlogMain imgUrl="" />
+      <BlogMain />
       <MyCategory Categoria="Destinos" />
       <MyCategory Categoria="Planea tu viaje" />
       <MyCategory Categoria="Que empaco" />
