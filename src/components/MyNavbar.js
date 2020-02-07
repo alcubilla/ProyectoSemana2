@@ -2,7 +2,7 @@ import React from "react";
 
 function MyNavbar() {
   return (
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href=" ">
           Servicios

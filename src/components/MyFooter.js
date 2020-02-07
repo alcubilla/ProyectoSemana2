@@ -2,19 +2,23 @@ import React from "react";
 
 function MyFooter() {
   return (
-    <div class="card">
-      <div class="card-header">La frase del día</div>
-      <div class="card-body">
-        <blockquote class="blockquote mb-0">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.
-          </p>
-          <footer class="blockquote-footer">
-            Someone famous in <cite title="Source Title">Source Title</cite>
-          </footer>
-        </blockquote>
-      </div>
+    <div class="custom-file m-4">
+      <h1 m-2>-----</h1>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">
+            Dejanos tu correo para suscribirte
+          </label>
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" id="inputEmail4"></input>
+          </div>
+          <div class="form-group col-md-4">
+            <button type="submit" class="btn btn-primary">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
   );
 }
