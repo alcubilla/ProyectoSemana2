@@ -1,14 +1,16 @@
 import React from "react";
 
-function Myblog(props){
+function MyBlog(props) {
   return (
     <div>
-      <p>Texto: {props.texto}</p>
-      <img src={props.imgUrl}></img>
-      <p>Titulo: {props.titulo} </p>
+      <p>{props.titulo} </p>
+      <img src={props.imgUrl} alt="No se encontró la imagen"></img>
+      <p>{props.fecha} </p>
+      <p>{props.extracto} </p>
       <p>Autor: {props.autor} </p>
+      <p>Categoria: {props.categoria} </p>
     </div>
   );
 }
 
-export default Myblog;
+export default MyBlog;
