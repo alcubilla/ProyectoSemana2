@@ -7,9 +7,9 @@ function App() {
   return (
     <div>
       <MyNavbar />
-      <MyCategory Categoria="1" />
-      <MyCategory Categoria="2" />
-      <MyCategory Categoria="3" />
+      <MyCategory Categoria="Destinos" />
+      <MyCategory Categoria="Planea tu viaje" />
+      <MyCategory Categoria="Que empaco" />
       <MyFooter />
     </div>
   );
