@@ -1,7 +1,9 @@
 import React from "react";
 import MyBlog from "./MyBlog";
 
-function MyCategory() {
+const MyCategory = ( ) => {
+
+  
   const categoria = {
     titulo1: "Cancún",
     imgUrl:
@@ -85,6 +87,7 @@ function MyCategory() {
     autor: "Luis",
     categoria: "Que empaco"
   };
+
   return (
     <div className="container">
       <h1>Destinos</h1>
@@ -106,6 +109,7 @@ function MyCategory() {
         <MyBlog categoria={categoria8} />
       </div>
     </div>
+    
   );
 }
 

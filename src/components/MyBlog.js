@@ -1,6 +1,6 @@
 import React from "react";
 
-function MyBlog(props) {
+const MyBlog= (props) => {
   const { categoria } = props;
 
   return (

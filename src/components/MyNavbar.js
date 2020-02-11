@@ -1,7 +1,7 @@
 import React from "react";
 
-function MyNavbar() {
-  return (
+const MyNavbar= () => 
+ (
     <div>
       <nav className="navbar-expand-lg navbar-dark bg-dark p-4">
         <a className="navbar-brand" href=" ">
@@ -16,6 +16,6 @@ function MyNavbar() {
       </nav>
     </div>
   );
-}
+
 
 export default MyNavbar;

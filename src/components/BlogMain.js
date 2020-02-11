@@ -1,7 +1,7 @@
 import React from "react";
 
-function BlogMain() {
-  return (
+const BlogMain= () => (
+  
     <div className="card bg-dark text-white m-4">
       <img
         src="https://media-cdn.tripadvisor.com/media/photo-s/0e/d2/15/e9/nuestra-vista-de-noche.jpg"
@@ -24,5 +24,5 @@ function BlogMain() {
       </div>
     </div>
   );
-}
+
 export default BlogMain;

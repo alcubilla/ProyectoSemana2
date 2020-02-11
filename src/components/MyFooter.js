@@ -1,7 +1,6 @@
 import React from "react";
 
-function MyFooter() {
-  return (
+const MyFooter= () => (
     <div className="container">
       <div className="custom-file m-4">
         <hr></hr>
@@ -64,6 +63,6 @@ function MyFooter() {
       </div>
     </div>
   );
-}
+
 
 export default MyFooter;
