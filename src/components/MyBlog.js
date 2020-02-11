@@ -18,7 +18,7 @@ function MyBlog(props) {
           <p className="card-text">
             {categoria.fecha} - {categoria.categoria}
           </p>
-          <button type="button" class="btn btn-outline-primary">
+          <button type="button" className="btn btn-outline-primary">
             Ver mas
           </button>
         </div>

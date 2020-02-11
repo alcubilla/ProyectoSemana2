@@ -2,45 +2,55 @@ import React from "react";
 
 function MyFooter() {
   return (
-    <div class="container">
-      <div class="custom-file m-4">
-        <h1 m-2>-----</h1>
+    <div className="container">
+      <div className="custom-file m-4">
+        <hr></hr>
         <form>
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleInputEmail1">
               Dejanos tu correo para suscribirte
             </label>
-            <div class="form-group col-md-6">
-              <input type="email" class="form-control" id="inputEmail4"></input>
+            <div className="form-group col-md-6">
+              <input
+                type="email"
+                className="form-control"
+                id="inputEmail4"
+              ></input>
             </div>
 
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-toggle="modal"
               data-target="#myModal"
             >
               Suscribete
             </button>
 
-            <div class="modal fade" id="myModal">
-              <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h4 class="modal-title">Ya eres parte de nuesto público</h4>
-                    <button type="button" class="close" data-dismiss="modal">
+            <div className="modal fade" id="myModal">
+              <div className="modal-dialog modal-sm">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h4 className="modal-title">
+                      Ya eres parte de nuesto público
+                    </h4>
+                    <button
+                      type="button"
+                      className="close"
+                      data-dismiss="modal"
+                    >
                       &times;
                     </button>
                   </div>
 
-                  <div class="modal-body">
+                  <div className="modal-body">
                     Estamos felices de tenerte con nosotros
                   </div>
 
-                  <div class="modal-footer">
+                  <div className="modal-footer">
                     <button
                       type="button"
-                      class="btn btn-secondary"
+                      className="btn btn-secondary"
                       data-dismiss="modal"
                     >
                       Close
