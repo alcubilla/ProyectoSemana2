@@ -2,7 +2,7 @@ import React from "react";
 
 const MyNavbar= () => 
  (
-    <div>
+    
       <nav className="navbar-expand-lg navbar-dark bg-dark p-4">
         <a className="navbar-brand" href=" ">
           Sevicios
@@ -14,7 +14,7 @@ const MyNavbar= () =>
           Contacto
         </a>
       </nav>
-    </div>
+    
   );
 
 

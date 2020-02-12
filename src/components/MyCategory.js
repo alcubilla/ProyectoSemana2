@@ -88,7 +88,7 @@ const MyCategory = ( ) => {
     categoria: "Que empaco"
   };
 
-  return (
+   return (
     <div className="container">
       <h1>Destinos</h1>
       <div className="row">
