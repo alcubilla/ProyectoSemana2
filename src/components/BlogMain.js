@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlogMain= () => (
+const BlogMain = ( ) => (
   
     <div className="card bg-dark text-white m-4">
       <img
